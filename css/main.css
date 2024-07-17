@@ -1,0 +1,175 @@
+body
+{
+overflow-x:hidden;
+width:100%;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+background:transparent;
+min-height:80px;
+background-attachment:fixed;
+
+}
+.bg
+{
+     min-height: 560px; 
+
+} 
+.bg1
+{ 
+    background:url(../image/bg3.jpg);
+    min-height: 710px;
+
+}
+
+@font-face {
+   font-family: 'typo';
+    src: url('../fonts/typo.ttf');
+	}
+
+@font-face {
+   font-family: 'gothic';
+    src: url('../fonts/gothics.ttf');
+	}
+
+.panel{
+background: transparent;
+border-radius: 50px;
+border-color:#fff;
+margin-left: 32em;
+padding:50px;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+
+}
+.form-group {
+background: transparent;
+}
+.title
+{
+font-family:'typo';
+}
+
+
+.logo
+{
+font-family:'Verdana';
+text-shadow: 30px 0px 30px 10px #ffbb33;
+font-size:40px;
+color:#ffbb33;
+padding-top: 50px;
+
+padding-left: 30px;
+
+}
+.header
+{
+background-color:#26195e;
+height:70px;
+position: relative;
+}
+
+.title1{
+font: 14px "Verdana", sans-serif;
+}
+.title2{
+font-family: 'Ubuntu', sans-serif;
+font-size:20px;
+}
+
+/*sign in*/
+.sub1 
+{
+width:90px;
+color:rgb(234, 213, 175);
+
+border-radius: 20px;
+/* background:orange; */
+font-size:15px;
+height:40px;
+margin:20px;
+padding:10px;
+width:100px;
+}
+
+.sub1:hover{
+    border-color: orange;
+    text-decoration: none;
+    color: orange;
+    box-shadow: 0px 0px 10px 5px orange; 
+}
+.sub
+{
+width:100%;
+align-content: center;
+border-radius: 30px;
+background:transparent;
+ border: color #0ff;;
+
+font-size:20px;
+padding:2px;
+margin-top:15px;
+margin-right:20px;
+}
+.sub:hover
+{
+color:#fff;
+box-shadow: 0px 0px 30px 10px #0ff;
+}
+
+.footer
+{
+font-size:15px;
+text-align:center;
+border-top:1px solid;
+border-color:#323232;
+background-color:#202020;
+}
+.footer a
+{
+margin:25px;
+color:orange;
+text-decoration:none;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+
+}
+.footer a:hover
+{
+text-decoration:none;
+color:#a3b450;
+border-top:2px solid;
+border-color:orange;
+
+}
+
+.box
+{
+padding: 25px;
+}
+hr{
+color:#d4eb8a;
+}
+.top
+{
+margin-top:20px;
+}
+.log1
+{
+font: 15px 'Ubuntu', sans-serif;
+color:orange;
+margin-left:10px;
+}
+
+.log
+{
+margin:10px;
+margin-right:60px;
+margin-left:5px;
+color:orange;
+text-decoration:none;
+font-size:20px;
+font-size:15px;
+}
+.log:hover
+{
+color:orange;
+text-shadow: 0px 0px 10px 5px orange; 
+text-decoration:none;
+}
